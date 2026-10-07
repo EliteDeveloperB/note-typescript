@@ -4,7 +4,6 @@ import FormNote from "../component/FormNote"
 
 function EditNote() {
   const {id} = useParams<{id:string}>()
- 
     
   return (
       <div className=" flex flex-col  bg-slate-50 p-8 rounded-lg shadow-md">
